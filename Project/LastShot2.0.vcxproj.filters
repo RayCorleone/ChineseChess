@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d10fd7d3-3d04-4ff9-a142-03d16267b490}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\book.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\evaluate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\genmoves.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hash.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lastshot_AI.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\movesort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\my_evaluate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\my_evaluate_advanced.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\position.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\preeval.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pregen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\search.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ucci.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\book.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\define.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hash.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\movesort.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\my_evaluate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\position.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\preeval.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pregen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rc4prng.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\search.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ucci.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
